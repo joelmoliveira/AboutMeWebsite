@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "Início",
+    "about": "Sobre mim",
+    "skills": "Skills",
+    "projects": "Projectos",
+    "contact": "Contatos"
+  },
+  "landingPage": {
+    "title": "Bem-vindo ao meu site",
+    "subtitle": "Eu sou um desenvolvedor",
+    "ctaButton": "Saiba mais"
+  },
+  "aboutPage": {
+    "title": "Sobre Mim",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "skillsPage": {
+    "title": "Minhas Habilidades",
+    "programmingLanguages": "Linguagens de Programação",
+    "frameworksAndLibraries": "Frameworks e Bibliotecas",
+    "databases": "Bancos de Dados"
+  },
+  "projectsPage": {
+    "title": "Meus Projetos",
+    "project1": {
+      "title": "Projeto 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project1.com"
+    },
+    "project2": {
+      "title": "Projeto 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project2.com"
+    },
+    "project3": {
+      "title": "Projeto 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project3.com"
+    }
+  },
+  "contactPage": {
+    "title": "Contate-me",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "submitButton": "Enviar"
+  },
+  "footer": {
+    "text": "Direitos autorais © 2023"
+  }
+}

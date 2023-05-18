@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "landingPage": {
+    "title": "Willkommen auf meiner Webseite",
+    "subtitle": "Ich bin ein Entwickler",
+    "ctaButton": "Mehr erfahren"
+  },
+  "aboutPage": {
+    "title": "Über mich",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "skillsPage": {
+    "title": "Meine Fähigkeiten",
+    "programmingLanguages": "Programmiersprachen",
+    "frameworksAndLibraries": "Frameworks und Bibliotheken",
+    "databases": "Datenbanken"
+  },
+  "projectsPage": {
+    "title": "Meine Projekte",
+    "project1": {
+      "title": "Projekt 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project1.com"
+    },
+    "project2": {
+      "title": "Projekt 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project2.com"
+    },
+    "project3": {
+      "title": "Projekt 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://project3.com"
+    }
+  },
+  "contactPage": {
+    "title": "Kontaktieren Sie mich",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "submitButton": "Absenden"
+  },
+  "footer": {
+    "text": "© 2023"
+  }
+}
