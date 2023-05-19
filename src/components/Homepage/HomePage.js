@@ -12,20 +12,20 @@ import FollowMe from "../FollowMe/FollowMe";
 import contentEnglish from "./../../Content/contentEnglish.json";
 
 const HomePage = () => {
-  //copy for about me
-  const { text } = contentEnglish.aboutMe;
   //copy for breakers
   const { break1 } = contentEnglish.breakers;
   const { break2 } = contentEnglish.breakers;
   const { break3 } = contentEnglish.breakers;
-  const { break4 } = contentEnglish.breakers;
+  const { id1 } = contentEnglish.breakers;
+  const { id2 } = contentEnglish.breakers;
+
 
   return (
     <div>
       <CTA />
-      <TextComponent title={break1} centered={true} />
+      <TextComponent id={id1} title={break1} centered={true} />
       <Skills />
-      <TextComponent title={break2} centered={true} />
+      <TextComponent id={id2} title={break2} centered={true} />
       <SectionNA
         image={contentEnglish.projectsPage.project1.image1}
         alt="Image 1"
@@ -52,8 +52,6 @@ const HomePage = () => {
       />
       <FourBox />
       <TextComponent title={break3} centered={true} />
-      <TextComponent text={text} centered={true} />
-      <TextComponent title={break4} centered={true} />
       <FollowMe />
     </div>
   );

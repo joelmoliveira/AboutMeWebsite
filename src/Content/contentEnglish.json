@@ -8,9 +8,11 @@
   },
   "breakers": {
     "break1": "Skills",
+    "id1": "id1",
     "break2": "Projects",
-    "break3": "About Me",
-    "break4": "Follow Me"
+    "id2": "id2",
+    "break3": "Follow Me",
+    "id3": "id3"
   },
   "landingPage": {
     "title": "Hi, I am Joel",

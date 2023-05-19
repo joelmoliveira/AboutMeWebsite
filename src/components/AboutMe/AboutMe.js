@@ -11,6 +11,8 @@ const AboutMe = ({ title, text }) => {
         <Typography variant="body1" sx={{ mb: 4 }}>
           {text}
         </Typography>
+        {/* <TextComponent id={id3} title={break3} centered={true} />
+      <TextComponent text={text} centered={true} /> */}
       </Grid>
     </Grid>
   );
