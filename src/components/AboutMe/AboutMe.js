@@ -13,7 +13,7 @@ const { aboutMe } = ContentEnglish
 const AboutMe = () => {
   return (
     <Grid container sx={{ maxWidth: "80%", margin: "0 auto" }}>
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} md={12}>
         <TextComponent title={aboutMe.title} centered={true} />
         <TextComponent text={aboutMe.text} centered={true} />
         <FourBox />
