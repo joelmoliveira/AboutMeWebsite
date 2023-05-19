@@ -66,7 +66,7 @@ const Header = () => {
             <Link to="/projects" sx={{ textDecoration: 'none', color: 'inherit' }}>
               <Button color="inherit">{contentEnglish.navbar.projects}</Button>
             </Link> */}
-            <Link to="/rules" sx={{ textDecoration: "none", color: "inherit" }}>
+            <Link to="/about" sx={{ textDecoration: "none", color: "inherit" }}>
               <Button color="inherit">{contentEnglish.navbar.about}</Button>
             </Link>
             <Button color="inherit" onClick={handleOpenDialog}>
