@@ -46,21 +46,25 @@ const SectionNA = (props) => {
   const { image, alt, title, description, buttonText } = props;
 
   return (
-    <Grid container justifyContent={"center"} sx={{ maxWidth: "80%", margin: "0 auto"}}>
+    <Grid
+      container
+      justifyContent={"center"}
+      sx={{ maxWidth: "80%", margin: "0 auto" }}
+    >
       <div className={classes.root}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6}>
             <img src={image} alt={alt} className={classes.image} />
           </Grid>
           <Grid item xs={12} sm={6}>
-             <div className={classes.content}>
+            <div className={classes.content}>
               <h2>{title}</h2>
               <p>{description}</p>
               <button className={classes.button}>{buttonText}</button>
-              </div>
+            </div>
           </Grid>
         </Grid>
-        </div>
+      </div>
     </Grid>
   );
 };

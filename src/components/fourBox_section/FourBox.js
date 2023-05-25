@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "0 10%",
+    padding: 0,
+    width: "100%",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       padding: "10% 5%",
