@@ -27,27 +27,27 @@ const HomePage = () => {
       <Skills />
       <TextComponent id={id2} title={break2} centered={true} />
       <SectionNA
-        image={contentEnglish.projectsPage.project1.image1}
+        image={contentEnglish.projectsSection.project1.image1}
         alt="Image 1"
-        title={contentEnglish.projectsPage.project1.title}
-        description={contentEnglish.projectsPage.project1.description}
-        buttonText={contentEnglish.projectsPage.project1.buttonText}
+        title={contentEnglish.projectsSection.project1.title}
+        description={contentEnglish.projectsSection.project1.description}
+        buttonText={contentEnglish.projectsSection.project1.buttonText}
         invert={false}
       />
       <SectionNA
-        image={contentEnglish.projectsPage.project2.image2}
+        image={contentEnglish.projectsSection.project2.image2}
         alt="Image 2"
-        title={contentEnglish.projectsPage.project2.title}
-        description={contentEnglish.projectsPage.project2.description}
-        buttonText={contentEnglish.projectsPage.project2.buttonText}
+        title={contentEnglish.projectsSection.project2.title}
+        description={contentEnglish.projectsSection.project2.description}
+        buttonText={contentEnglish.projectsSection.project2.buttonText}
         invert={true}
       />
       <SectionNA
-        image={contentEnglish.projectsPage.project3.image3}
+        image={contentEnglish.projectsSection.project3.image3}
         alt="Image 2"
-        title={contentEnglish.projectsPage.project3.title}
-        description={contentEnglish.projectsPage.project3.description}
-        buttonText={contentEnglish.projectsPage.project3.buttonText}
+        title={contentEnglish.projectsSection.project3.title}
+        description={contentEnglish.projectsSection.project3.description}
+        buttonText={contentEnglish.projectsSection.project3.buttonText}
         invert={false}
       />
       <FourBox />

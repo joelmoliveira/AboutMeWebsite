@@ -45,7 +45,7 @@
       "databases": "MySQL, PostgreSQL"
     }
   },
-  "projectsPage": {
+  "projectsSection": {
     "title": "My Projects",
     "project1": {
       "image1": "/image1.jpg",
@@ -70,6 +70,90 @@
       "description": "Pellentesque lobortis, urna quis molestie iaculis, mauris tellus placerat mauris, non accumsan nisi metus at leo. Integer quis nibh eros. Maecenas rhoncus eros eget arcu consequat, ac sagittis augue sollicitudin.",
       "buttonText": "Get Started",
       "invert": false
+    }
+  },
+  "projectsPage": {
+    "followMe": "Follow Me",
+    "project1": {
+      "image1": "/image1.jpg",
+      "alt1": "Image 1",
+      "image2": "/image2.jpg",
+      "alt2": "Image 2",
+      "image3": "/image3.jpg",
+      "alt3": "Image 3",
+      "title": "Hive Monitor",
+      "aboutTitle": "About",
+      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "objectiveTitle": "Objective",
+      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "toolsTitle": "Tools & Tech",
+      "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "challengeTitle": "Challenge",
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+    },
+    "project2": {
+      "image1": "/image1.jpg",
+      "alt1": "Image 1",
+      "image2": "/image2.jpg",
+      "alt2": "Image 2",
+      "image3": "/image3.jpg",
+      "alt3": "Image 3",
+      "title": "Hive Monitor",
+      "aboutTitle": "About",
+      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "objectiveTitle": "Objective",
+      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "tools & Tech": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "challengeTitle": "Challenge",
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+    },
+    "project3": {
+      "image1": "/image1.jpg",
+      "alt1": "Image 1",
+      "image2": "/image2.jpg",
+      "alt2": "Image 2",
+      "image3": "/image3.jpg",
+      "alt3": "Image 3",
+      "title": "Hive Monitor",
+      "aboutTitle": "About",
+      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "objectiveTitle": "Objective",
+      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "tools & Tech": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "challengeTitle": "Challenge",
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+    },
+    "project4": {
+      "image1": "/image1.jpg",
+      "alt1": "Image 1",
+      "image2": "/image2.jpg",
+      "alt2": "Image 2",
+      "image3": "/image3.jpg",
+      "alt3": "Image 3",
+      "title": "Hive Monitor",
+      "aboutTitle": "About",
+      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "objectiveTitle": "Objective",
+      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "tools & Tech": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "challengeTitle": "Challenge",
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+    },
+    "project5": {
+      "image1": "/image1.jpg",
+      "alt1": "Image 1",
+      "image2": "/image2.jpg",
+      "alt2": "Image 2",
+      "image3": "/image3.jpg",
+      "alt3": "Image 3",
+      "title": "Hive Monitor",
+      "aboutTitle": "About",
+      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "objectiveTitle": "Objective",
+      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "tools & Tech": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "challengeTitle": "Challenge",
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
     }
   },
   "contactPage": {
