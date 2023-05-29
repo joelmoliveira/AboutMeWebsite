@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Components
 import CTA from "../CTA/Cta";
@@ -19,7 +20,6 @@ const HomePage = () => {
   const { id1 } = contentEnglish.breakers;
   const { id2 } = contentEnglish.breakers;
 
-
   return (
     <div>
       <CTA />
@@ -31,25 +31,37 @@ const HomePage = () => {
         alt="Image 1"
         title={contentEnglish.projectsSection.project1.title}
         description={contentEnglish.projectsSection.project1.description}
-        buttonText={contentEnglish.projectsSection.project1.buttonText}
         invert={false}
-      />
+      >
+        <Link to="/projects/project1">
+          <button>{contentEnglish.projectsSection.project1.buttonText}</button>
+          {/* buttonText={contentEnglish.projectsSection.project1.buttonText} */}
+        </Link>
+      </SectionNA>
       <SectionNA
         image={contentEnglish.projectsSection.project2.image2}
         alt="Image 2"
         title={contentEnglish.projectsSection.project2.title}
         description={contentEnglish.projectsSection.project2.description}
-        buttonText={contentEnglish.projectsSection.project2.buttonText}
         invert={true}
-      />
+      >
+        <Link to="/projects/project2">
+          <button>{contentEnglish.projectsSection.project2.buttonText}</button>
+          {/* buttonText={contentEnglish.projectsSection.project2.buttonText} */}
+        </Link>
+      </SectionNA>
       <SectionNA
         image={contentEnglish.projectsSection.project3.image3}
         alt="Image 2"
         title={contentEnglish.projectsSection.project3.title}
         description={contentEnglish.projectsSection.project3.description}
-        buttonText={contentEnglish.projectsSection.project3.buttonText}
         invert={false}
-      />
+      >
+        <Link to="/projects/project3">
+          <button>{contentEnglish.projectsSection.project3.buttonText}</button>
+          {/* buttonText={contentEnglish.projectsSection.project3.buttonText} */}
+        </Link>
+      </SectionNA>
       <FourBox />
       <TextComponent title={break3} centered={true} />
       <FollowMe />

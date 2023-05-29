@@ -22,6 +22,7 @@ function App() {
           <Route path="/" element={<HomePage/>} />
           <Route path='/about' element={<AboutMe/>} />
           <Route path='/projects' element={<ProjectPage/>} />
+          <Route path="/projects/:projectId" element={<ProjectPage />} />
           {/* <Route path='/rules' element={<Rules/>} /> */}
         </Routes>
         <Footer />

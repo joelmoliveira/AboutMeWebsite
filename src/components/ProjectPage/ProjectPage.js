@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid } from "@material-ui/core";
+import { useParams } from "react-router-dom";
 
 //import components
 import TextComponent from "../TextCompon/textComp";
@@ -26,39 +27,66 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ProjectPage = () => {
+const ProjectPage = ({ project }) => {
   const classes = useStyles();
+  const { projectID } = useParams();
+
+  // Get the project details based on the projectID
+  const projectDetails = projectsPage[projectID];
+
+  if (!projectDetails) {
+    // render a message of fallback component for invalid project ID
+    return <div>Invalid project ID</div>;
+  }
+
+  const {
+    image1,
+    alt1,
+    image2,
+    alt2,
+    image3,
+    alt3,
+    title,
+    aboutTitle,
+    about,
+    objectiveTitle,
+    objective,
+    toolsTitle,
+    toolsTech,
+    challengeTitle,
+    challenge,
+  } = projectDetails;
 
   return (
     <Container className={classes.root}>
-      <TextComponent title={projectsPage.project1.title} />
+      <TextComponent title={title} />
       <Grid container spacing={2}>
         <Grid item xs={4}>
-          <img src="" alt="" className="" />
+          <img src={image1} alt={alt1} className={classes.image} />
         </Grid>
         <Grid item xs={4}>
-          <img src="" alt="" className="" />
+          <img src={image2} alt={alt2} className={classes.image} />
         </Grid>
         <Grid item xs={4}>
-          <img src="" alt="" className="" />
+          <img src={image3} alt={alt3} className={classes.image} />
         </Grid>
       </Grid>
       <Grid container spacing={2}>
         <Grid item xs={4}>
-          <TextComponent title={projectsPage.project1.aboutTitle} />
-          <TextComponent text={projectsPage.project1.about} />
-          <TextComponent title={projectsPage.project1.objectiveTitle} />
-          <TextComponent text={projectsPage.project1.objective} />
-          <TextComponent title={projectsPage.project1.toolsTitle} />
-          <TextComponent text={projectsPage.project1.toolsTech} />
+          <TextComponent title={aboutTitle} />
+          <TextComponent text={about} />
+          <TextComponent title={objectiveTitle} />
+          <TextComponent text={objective} />
+          <TextComponent title={toolsTitle} />
+          <TextComponent text={toolsTech} />
         </Grid>
         <Grid item xs={8}>
-          <TextComponent title={projectsPage.project1.challengeTitle} />
-          <TextComponent text={projectsPage.project1.challenge} />
+          <TextComponent title={challengeTitle} />
+          <TextComponent text={challenge} />
         </Grid>
       </Grid>
       <Grid item xs={12} md={12} sx={{ maxWidth: "80%", margin: "0 auto" }}>
-        <TextComponent title={projectsPage.followMe} centered={true} />
+        <TextComponent title={project.followMe} centered={true} />
         <FollowMe />
       </Grid>
     </Container>
