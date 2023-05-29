@@ -9,6 +9,7 @@ import Header from './components/Header/Header';
 import HomePage from './components/Homepage/HomePage';
 import Footer from './components/Footer/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
+import ProjectPage from './components/ProjectPage/ProjectPage';
 
 // Contents
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path='/about' element={<AboutMe/>} />
+          <Route path='/projects' element={<ProjectPage/>} />
           {/* <Route path='/rules' element={<Rules/>} /> */}
         </Routes>
         <Footer />

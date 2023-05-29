@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: theme.spacing(2),
     paddingBottom: theme.spacing(2),
+    width: "80%",
+    margin: "0 auto",
   },
   title: {
     marginBottom: theme.spacing(2),
