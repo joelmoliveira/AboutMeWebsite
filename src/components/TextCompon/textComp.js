@@ -1,5 +1,6 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
+import Typography from '@mui/material/Typography';
 
 const TextComponent = ({ id, title, text, centered }) => {
   return (

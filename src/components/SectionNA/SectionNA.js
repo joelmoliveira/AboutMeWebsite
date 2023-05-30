@@ -1,6 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@mui/material";
+import { Typography, Container } from '@mui/material';
+import Button from '@mui/material/Button';
+import { Link } from "react-router-dom";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,32 +45,36 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const SectionNA = (props) => {
+const SectionNA = ({ image, alt, title, description, invert, buttonText, buttonLink }) => {
   const classes = useStyles();
-  const { image, alt, title, description, buttonText } = props;
 
   return (
-    <Grid
-      container
-      justifyContent={"center"}
-      sx={{ maxWidth: "80%", margin: "0 auto" }}
-    >
-      <div className={classes.root}>
-        <Grid container spacing={2}>
+    <div className={classes.root}>
+      <Container maxWidth="lg">
+        <Grid container spacing={3} alignItems="center" className={invert ? classes.invert : ''}>
           <Grid item xs={12} sm={6}>
             <img src={image} alt={alt} className={classes.image} />
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className={classes.content}>
-              <h2>{title}</h2>
-              <p>{description}</p>
-              <button className={classes.button}>{buttonText}</button>
+              <Typography variant="h4" component="h2" className={classes.title}>
+                {title}
+              </Typography>
+              <Typography variant="body1" className={classes.description}>
+                {description}
+              </Typography>
+              <Link to={buttonLink} className={classes.button}>
+                <Button variant="contained" color="primary" className={classes.button}>
+                  {buttonText}
+                </Button>
+              </Link>
             </div>
           </Grid>
         </Grid>
-      </div>
-    </Grid>
+      </Container>
+    </div>
   );
 };
+
 
 export default SectionNA;

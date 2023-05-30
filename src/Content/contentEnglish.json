@@ -73,23 +73,23 @@
     }
   },
   "projectsPage": {
-    "followMe": "Follow Me",
     "project1": {
-      "image1": "/image1.jpg",
+      "image1": "image1.jpg",
       "alt1": "Image 1",
-      "image2": "/image2.jpg",
+      "image2": "image2.jpg",
       "alt2": "Image 2",
-      "image3": "/image3.jpg",
+      "image3": "image3.jpg",
       "alt3": "Image 3",
-      "title": "Hive Monitor",
-      "aboutTitle": "About",
-      "about": "Pellentesque lobortis, urna quis molestie iaculis,",
-      "objectiveTitle": "Objective",
-      "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
-      "toolsTitle": "Tools & Tech",
-      "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
-      "challengeTitle": "Challenge",
-      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+      "title": "Project 1",
+      "aboutTitle": "About Project 1",
+      "about": "Description of Project 1",
+      "objectiveTitle": "Objective of Project 1",
+      "objective": "Objective details of Project 1",
+      "toolsTitle": "Tools and Technologies",
+      "toolsTech": "Tools and technologies used in Project 1",
+      "challengeTitle": "Challenges",
+      "challenge": "Challenges faced in Project 1",
+      "followMe": "Follow Me Text"
     },
     "project2": {
       "image1": "/image1.jpg",
@@ -105,7 +105,8 @@
       "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
       "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
       "challengeTitle": "Challenge",
-      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "followMe": "Follow Me Text"
     },
     "project3": {
       "image1": "/image1.jpg",
@@ -121,7 +122,8 @@
       "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
       "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
       "challengeTitle": "Challenge",
-      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "followMe": "Follow Me Text"
     },
     "project4": {
       "image1": "/image1.jpg",
@@ -137,7 +139,8 @@
       "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
       "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
       "challengeTitle": "Challenge",
-      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "followMe": "Follow Me Text"
     },
     "project5": {
       "image1": "/image1.jpg",
@@ -153,7 +156,8 @@
       "objective": "Pellentesque lobortis, urna quis molestie iaculis,",
       "toolsTech": "Pellentesque lobortis, urna quis molestie iaculis,",
       "challengeTitle": "Challenge",
-      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,"
+      "challenge": "Pellentesque lobortis, urna quis molestie iaculis,",
+      "followMe": "Follow Me Text"
     }
   },
   "contactPage": {

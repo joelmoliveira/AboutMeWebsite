@@ -13,7 +13,7 @@ import FollowMe from "../FollowMe/FollowMe";
 import contentEnglish from "./../../Content/contentEnglish.json";
 
 const HomePage = () => {
-  //copy for breakers
+  // Copy for breakers
   const { break1 } = contentEnglish.breakers;
   const { break2 } = contentEnglish.breakers;
   const { break3 } = contentEnglish.breakers;
@@ -32,23 +32,18 @@ const HomePage = () => {
         title={contentEnglish.projectsSection.project1.title}
         description={contentEnglish.projectsSection.project1.description}
         invert={false}
-      >
-        <Link to="/projects/project1">
-          <button>{contentEnglish.projectsSection.project1.buttonText}</button>
-          {/* buttonText={contentEnglish.projectsSection.project1.buttonText} */}
-        </Link>
-      </SectionNA>
+        buttonText={contentEnglish.projectsSection.project1.buttonText}
+        buttonLink="/projects/project1"
+      />
       <SectionNA
         image={contentEnglish.projectsSection.project2.image2}
         alt="Image 2"
         title={contentEnglish.projectsSection.project2.title}
         description={contentEnglish.projectsSection.project2.description}
         invert={true}
+        buttonText={contentEnglish.projectsSection.project2.buttonText}
+        buttonLink="/projects/project2"
       >
-        <Link to="/projects/project2">
-          <button>{contentEnglish.projectsSection.project2.buttonText}</button>
-          {/* buttonText={contentEnglish.projectsSection.project2.buttonText} */}
-        </Link>
       </SectionNA>
       <SectionNA
         image={contentEnglish.projectsSection.project3.image3}
@@ -56,11 +51,9 @@ const HomePage = () => {
         title={contentEnglish.projectsSection.project3.title}
         description={contentEnglish.projectsSection.project3.description}
         invert={false}
+        buttonText={contentEnglish.projectsSection.project3.buttonText}
+        buttonLink="/projects/project3"
       >
-        <Link to="/projects/project3">
-          <button>{contentEnglish.projectsSection.project3.buttonText}</button>
-          {/* buttonText={contentEnglish.projectsSection.project3.buttonText} */}
-        </Link>
       </SectionNA>
       <FourBox />
       <TextComponent title={break3} centered={true} />

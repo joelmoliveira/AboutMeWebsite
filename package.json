@@ -8,7 +8,7 @@
     "@jscad/openjscad": "github:jscad/OpenJSCAD.org",
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.1",
+    "@mui/material": "^5.13.3",
     "@mui/styles": "^5.11.16",
     "@mui/system": "^5.11.16",
     "@testing-library/jest-dom": "^5.16.5",

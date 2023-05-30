@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
 
 const ProjectPage = ({ project }) => {
   const classes = useStyles();
-  const { projectID } = useParams();
+  const { projectId } = useParams();
 
   // Get the project details based on the projectID
-  const projectDetails = projectsPage[projectID];
+  const projectDetails = projectsPage[projectId];
 
   if (!projectDetails) {
     // render a message of fallback component for invalid project ID
@@ -55,6 +55,7 @@ const ProjectPage = ({ project }) => {
     toolsTech,
     challengeTitle,
     challenge,
+    followMe
   } = projectDetails;
 
   return (
@@ -86,7 +87,7 @@ const ProjectPage = ({ project }) => {
         </Grid>
       </Grid>
       <Grid item xs={12} md={12} sx={{ maxWidth: "80%", margin: "0 auto" }}>
-        <TextComponent title={project.followMe} centered={true} />
+        <TextComponent title={followMe} centered={true} />
         <FollowMe />
       </Grid>
     </Container>
