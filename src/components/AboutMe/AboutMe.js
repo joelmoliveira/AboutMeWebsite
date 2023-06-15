@@ -15,14 +15,14 @@ const AboutMe = () => {
     <Grid container>
       <Grid item xs={12} md={12} sx={{ maxWidth: "90%", margin: "0 auto" }}>
         <Grid container alignItems="center">
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <img
               src="your-image-url"
               alt="Your Image"
               style={{ width: "100%" }}
             />
           </Grid>
-          <Grid item xs={10}>
+          <Grid item xs={9}>
             <TextComponent text={aboutMe.text} centered={true} />
           </Grid>
         </Grid>

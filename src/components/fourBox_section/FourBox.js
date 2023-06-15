@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#f2f2f2",
-    height: "50vh",
+    height: "30vh",
     padding: 0,
     width: "100%",
     [theme.breakpoints.down("sm")]: {
